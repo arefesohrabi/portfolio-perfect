@@ -1,16 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #212121;
+    box-sizing: border-box;
+}
 a {
     color: #212121;
     text-decoration: none;
 }
+h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+h1,h2,h3,h4 {
+    line-height: 1.1;
+}
+p {
+    margin-bottom: 10px;
+}
+/* ----------------------------------------------------------------------------------------header---------------------------------------------------------------------------------------- */
 header {
-    padding: 30px 93px;
-    background-color: transparent;
+    padding: 30px 108px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 14%) 0px 0px 20px 6px;
 }
 header img {
     float: left;
 }
 #menu {
     float: right;
+    padding-right: 210px;
 }
 #menu li {
     display: block;
@@ -26,4 +53,47 @@ header img {
 #home-menu {
     border-bottom: 2px solid #212121;
     padding-left: 0px !important;
+}
+/* ----------------------------------------------------------------------------------------hero---------------------------------------------------------------------------------------- */
+#hero {
+    background-image: url(assets/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#hero-container {
+    padding: 100px 108px 0px 108px;
+    height: 600px;
+}
+#hero-col {
+    margin-top: 60px;
+}
+.job-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    min-width: 145px;
+    padding: 13px 37px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: uppercase;
+    border: 1px #212121 solid;
+    margin-top: 30px;
+}
+.btn:hover, .btn:focus {
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+.black-btn {
+    color: white;
+    background-color: #212121;
+}
+#hero img {
+    height: 600px;
+    float: right;
+    margin-top: -177px;
 }
