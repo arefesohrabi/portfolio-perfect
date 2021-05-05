@@ -1,0 +1,29 @@
+a {
+    color: #212121;
+    text-decoration: none;
+}
+header {
+    padding: 30px 93px;
+    background-color: transparent;
+}
+header img {
+    float: left;
+}
+#menu {
+    float: right;
+}
+#menu li {
+    display: block;
+    float: left;
+    padding: 5px 0px 5px 40px;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    color: #212121;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+#home-menu {
+    border-bottom: 2px solid #212121;
+    padding-left: 0px !important;
+}
