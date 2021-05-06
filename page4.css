@@ -5,6 +5,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    line-height: 1.5;
     color: #212121;
     box-sizing: border-box;
 }
@@ -19,6 +20,11 @@ h1 {
     margin-bottom: 15px;
 }
 h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+h3 {
     font-size: 36px;
     text-transform: uppercase;
     font-weight: 500;
@@ -170,3 +176,36 @@ header img {
     width: 45%
 }
 /* ----------------------------------------------------------------------------------------service---------------------------------------------------------------------------------------- */
+#background {
+    width: 100%;
+    height: 400px;
+    background-image: url(assets/img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#what-i-do {
+    width: 85%;
+    margin: -200px 7.5% 0 7.5%;
+    padding: 120px 0px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 40px 8px rgb(0 0 0 / 20%);
+}
+#do-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 100px;
+}
+.col {
+    margin: 0px 6.5px;
+}
+.col h4 {   
+    margin: 25px 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: none;
+}
+.col p {
+    color: black;
+}
