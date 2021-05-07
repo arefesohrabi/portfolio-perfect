@@ -279,3 +279,42 @@ header img {
     margin: 25px 0 0;
     text-transform: none;
 }
+/* ----------------------------------------------------------------------------------------contact---------------------------------------------------------------------------------------- */
+#contact {
+    padding: 120px 7%;
+    text-align: center;
+}
+#mesaage {
+    clear: both;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+    width: 100%;
+    min-height: 200px;
+}
+.inp {
+    border: none; 
+    padding-left: 10px;
+    border-bottom: 1px solid #212121;   
+    height: 34px;
+    padding: 6px 0 6px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+.inp:focus {
+    border-bottom-color: #e1e1e1;
+    outline: none;
+}
+.put {
+    display: inline;
+    width: 45%;
+}
+#name {
+    float: left;
+    margin-right: 12px;
+}
+#mail {
+    float: right;
+    margin-left: 12px;
+}
